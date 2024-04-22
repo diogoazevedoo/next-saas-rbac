@@ -62,6 +62,9 @@ importers:
       '@casl/ability':
         specifier: ^6.7.1
         version: 6.7.1
+      zod:
+        specifier: ^3.23.0
+        version: 3.23.0
     devDependencies:
       '@saas/eslint-config':
         specifier: workspace:*
@@ -2749,3 +2752,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod@3.23.0:
+    resolution: {integrity: sha512-OFLT+LTocvabn6q76BTwVB0hExEBS0IduTr3cqZyMqEDbOnYmcU+y0tUAYbND4uwclpBGi4I4UUBGzylWpjLGA==}
+    dev: false
