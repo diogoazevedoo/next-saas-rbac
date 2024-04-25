@@ -34,7 +34,15 @@ app.register(fastifySwagger, {
         'Boilerplate to setup a multi-tenant SaaS with Next.js including authentication and RBAC authorization.',
       version: '1.0.0',
     },
-    servers: [],
+    components: {
+      securitySchemes: {
+        bearerAuth: {
+          type: 'http',
+          scheme: 'bearer',
+          bearerFormat: 'JWT',
+        },
+      },
+    },
   },
   transform: jsonSchemaTransform,
 })
