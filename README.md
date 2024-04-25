@@ -14,7 +14,7 @@ This project contains all the necessary boilerplate to setup a multi-tenant SaaS
 ### Organizations
 
 - [x] It should be able to create a new organization;
-- [ ] It should be able to get organizations to which the user belongs;
+- [x] It should be able to get organizations to which the user belongs;
 - [ ] It should be able to update an organization;
 - [ ] It should be able to shutdown an organization;
 - [ ] It should be able to transfer organization ownership;
