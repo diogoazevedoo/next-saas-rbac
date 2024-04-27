@@ -28,7 +28,7 @@ This project contains all the necessary boilerplate to setup a multi-tenant SaaS
 ### Members
 
 - [x] It should be able to get organization members;
-- [ ] It should be able to update a member role;
+- [x] It should be able to update a member role;
 
 ### Projects
 
