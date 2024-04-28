@@ -40,7 +40,7 @@ This project contains all the necessary boilerplate to setup a multi-tenant SaaS
 
 ### Billing
 
-- [ ] It should be able to get billing details for organization ($20 per project / $10 per member excluding billing role);
+- [x] It should be able to get billing details for organization ($20 per project / $10 per member excluding billing role);
 
 ## RBAC
 
