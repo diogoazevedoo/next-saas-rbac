@@ -130,6 +130,9 @@ importers:
         specifier: ^3.23.8
         version: 3.23.8
     devDependencies:
+      '@saas/auth':
+        specifier: workspace:*
+        version: link:../../packages/auth
       '@saas/eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
