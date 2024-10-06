@@ -136,6 +136,9 @@ importers:
       '@saas/auth':
         specifier: workspace:*
         version: link:../../packages/auth
+      '@saas/env':
+        specifier: workspace:*
+        version: link:../../packages/env
       '@saas/eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
@@ -154,6 +157,9 @@ importers:
       '@types/react-dom':
         specifier: ^18
         version: 18.3.0
+      dotenv-cli:
+        specifier: ^7.4.1
+        version: 7.4.1
       postcss:
         specifier: ^8
         version: 8.4.45
@@ -2822,6 +2828,7 @@ packages:
   /eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.0)
