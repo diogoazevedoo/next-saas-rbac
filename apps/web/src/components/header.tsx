@@ -6,6 +6,7 @@ import { ability } from '@/auth/auth'
 
 import { OrganizationSwitcher } from './organization-switcher'
 import { ProfileButton } from './profile-button'
+import { ProjectSwitcher } from './project-switcher'
 import { ThemeSwitcher } from './theme/theme-switcher'
 import { Separator } from './ui/separator'
 
@@ -17,11 +18,16 @@ export async function Header() {
       <div className="flex items-center gap-3">
         <Image src={logoIcon} className="size-6 dark:invert" alt="logo" />
 
-        <Slash className="text-border size-3 -rotate-[24deg]" />
+        <Slash className="size-3 -rotate-[24deg] text-border" />
 
         <OrganizationSwitcher />
 
-        {permissions?.can('get', 'Project') && <p>Projetos</p>}
+        {permissions?.can('get', 'Project') && (
+          <>
+            <Slash className="size-3 -rotate-[24deg] text-border" />
+            <ProjectSwitcher />
+          </>
+        )}
       </div>
 
       <div className="flex items-center gap-4">
